@@ -1,0 +1,18 @@
+header {
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+}
+
+.header-img-container {
+    width:225px;
+    height:225px;
+    background-image: url("../images/Kathryn\ Davies.jpg");
+    background-size: cover;
+    background-position: center;
+    border-radius: 100%;
+}
+
+h1 {
+    text-align: center;
+}
