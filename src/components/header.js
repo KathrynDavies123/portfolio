@@ -7,7 +7,7 @@ const Header = () => {
           <div className="img"></div>
         </div>
       <h1>
-        Hi 👋, my name is <span>Kathryn</span> and I'm a FrontEnd Web Developer
+        Hi 👋 I'm <span>Kathryn</span>, I'm a FrontEnd Web Developer
       </h1>
     </header>
   );
