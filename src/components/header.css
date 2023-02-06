@@ -1,18 +1,38 @@
 header {
-    display:flex;
-    flex-direction:column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .header-img-container {
-    width:225px;
-    height:225px;
-    background-image: url("../images/Kathryn\ Davies.jpg");
+  width: 230px;
+  height: 230px;
+  background-image: linear-gradient(180deg, #e70faa 0%, #00c0fd 100%);
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img {
+    width:215px;
+    height:215px;
+    border-radius:100%;
     background-size: cover;
     background-position: center;
-    border-radius: 100%;
+    background-image: url("../images/Kathryn\ Davies.jpg");
 }
 
 h1 {
-    text-align: center;
+  text-align: center;
+  color: #d9d9d9;
+}
+
+span {
+  background-image: linear-gradient(90deg, #13b0f5 -2.06%, #e70faa 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
 }
