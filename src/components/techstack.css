@@ -1,17 +1,8 @@
-section {
+.techstack-icon-grid {
     display:flex;
-    flex-direction:column;
-    align-items: center;
-    gap:0.6rem;
-    margin-top:5rem;
-}
-
-h2 {
-    color: #CCCCCC;
-    font-size:1.8rem;
-}
-
-p {
-    color: #A7A7A7;
-    font-size:1.2rem;
+    flex-wrap:wrap;
+    gap:1.5rem;
+    row-gap: 2.5rem;
+    margin-top:0.8rem;
+    justify-content: center;
 }

@@ -1,0 +1,6 @@
+.projects-grid {
+    margin-top:1.5rem;
+    display:flex;
+    gap:3rem;
+    flex-wrap: wrap;
+}

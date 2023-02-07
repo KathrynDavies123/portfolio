@@ -16,7 +16,7 @@ const Nav = () => {
             target="_blank"
             rel="noreferrer"
           >
-            <FontAwesomeIcon icon={brands("github")} size="lg" />
+            <FontAwesomeIcon icon={brands("github")} size="xl" />
           </a>
         </li>
         <li>
@@ -25,12 +25,12 @@ const Nav = () => {
             target="_blank"
             rel="noreferrer"
           >
-            <FontAwesomeIcon icon={brands("linkedin")} size="lg" />
+            <FontAwesomeIcon icon={brands("linkedin")} size="xl" />
           </a>
         </li>
         <li>
           <a href="mailto:kathryn.davies1233@gmail.com">
-            <FontAwesomeIcon icon={solid("envelope")} size="lg" />
+            <FontAwesomeIcon icon={solid("envelope")} size="xl" />
           </a>
         </li>
       </ul>

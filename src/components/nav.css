@@ -22,7 +22,6 @@ ul {
   gap:1rem;
 }
 
-a {
+nav a {
     color: #A7A7A7;
-    text-decoration: none;
 }
