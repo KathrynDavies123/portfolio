@@ -1,0 +1,17 @@
+section {
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    gap:0.6rem;
+    margin-top:1rem;
+}
+
+h2 {
+    color: #CCCCCC;
+    font-size:1.8rem;
+}
+
+p {
+    color: #A7A7A7;
+    font-size:1.2rem;
+}

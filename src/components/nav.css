@@ -2,9 +2,10 @@ nav {
     display:flex;
     align-items: center;
     height:3rem;
+    justify-content: space-between;
 }
 
-nav > p {
+nav p {
   background-image: linear-gradient(#13b0f5 -2.06%, #e70faa 100%);
   background-clip: text;
   -webkit-background-clip: text;
@@ -12,9 +13,16 @@ nav > p {
   -webkit-text-fill-color: transparent;
   -moz-text-fill-color: transparent;
   font-weight:700;
-  font-size:1.2rem;
+  font-size:1.5rem;
 }
 
-nav a {
-    color: #d9d9d9;
+ul {
+  display:flex;
+  list-style-type: none;
+  gap:1rem;
+}
+
+a {
+    color: #A7A7A7;
+    text-decoration: none;
 }
