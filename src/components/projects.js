@@ -28,7 +28,7 @@ const dataarray = [
     {
         image: rps,
         title: "Rock Paper Scissors game",
-        description: "Rock Paper Scissors against the computer",
+        description: "Rock Paper Scissors against the computer, made with Javascript.",
         techstack: "HTML, CSS, Javascript", 
         livesite: "https://kathryndavies123.github.io/RockPaperScissorsv2/",
         githubrepo: "https://github.com/KathrynDavies123/RockPaperScissorsv2"
@@ -37,7 +37,7 @@ const dataarray = [
     {
         image: beer,
         title: "Beer Database using Beer API",
-        description: "Beer database with details page of each beer and an option to select a random beer",
+        description: "Beer database with details page of each beer",
         techstack: "React, Javascript, API, CSS", 
         livesite: "https://illustrious-panda-46531a.netlify.app/",
         githubrepo: "https://github.com/KathrynDavies123/react-beer-api"

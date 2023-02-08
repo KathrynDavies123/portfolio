@@ -11,7 +11,7 @@ const ProjectTile = (props) => {
         <div>
             <h3>{props.title}</h3>
             <p>{props.description}</p>
-            <p className="tech-text">{"Tech stack: " + props.techstack}</p>
+            <p className="tech-text">{props.techstack}</p>
             <div className="links"><a href={props.livesite} target="_blank" rel="noreferrer"><FontAwesomeIcon icon={solid("link")} />  Live Preview</a>
             <a href={props.githubrepo} target="_blank" rel="noreferrer"><FontAwesomeIcon icon={brands("github")} /> View Code</a>
             </div>

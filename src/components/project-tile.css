@@ -1,22 +1,23 @@
 article {
-  background: #363636;
+  background: rgba(54, 54, 54, 0.5);
   box-shadow: 2px 2px 100px rgba(0, 0, 0, 0.2);
   border-radius: 20px;
-  max-width:375px;
+  max-width:373px;
 }
 
 article img {
   width: 100%;
   border-top-right-radius: 20px;
   border-top-left-radius: 20px;
-  max-height:205px;
+  height:200px;
   object-fit: cover;
 }
 
 article > div {
     padding:1rem;
     display:flex;
-    flex-direction:column;
+    flex-direction: column;
+    justify-content: space-between;
     gap:1rem;
 }
 
@@ -30,18 +31,21 @@ article p {
   color: #cccccc;
   font-weight:300;
   font-size:1rem;
+  
 }
 
 .tech-text {
     font-size:1rem;
+    color:rgba(151, 75, 198, 0.7);
 }
 
 .links {
   display: flex;
   justify-content: space-between;
+  justify-self: flex-end;
 }
 
 .links a {
-  color: #ffffff;
+  color: rgba(231, 15, 170, 0.5);
   font-size:1rem;
 }
