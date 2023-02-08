@@ -2,6 +2,7 @@ article {
   background: #363636;
   box-shadow: 2px 2px 100px rgba(0, 0, 0, 0.2);
   border-radius: 20px;
+  max-width:375px;
 }
 
 article img {

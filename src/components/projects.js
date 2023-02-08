@@ -3,6 +3,8 @@ import ProjectTile from "./project-tile";
 import moviedb from "../images/moviedb screenshot.PNG";
 import rps from "../images/rps.JPG";
 import beer from "../images/beer.JPG";
+import tipcalculator from "../images/tipcalculator.png";
+import designportfolio from "../images/designportfolio.png";
 
 const dataarray = [
     {
@@ -12,6 +14,15 @@ const dataarray = [
         techstack: "React, Javascript, API, CSS", 
         livesite: "https://comforting-bombolone-f53d32.netlify.app/",
         githubrepo: "https://github.com/KathrynDavies123/mov"
+    },
+
+    {
+        image: tipcalculator,
+        title: "Tip and bill splitting calculator",
+        description: "Splits a restaurant bill with different tip percentages",
+        techstack: "HTML, CSS, Javascript", 
+        livesite: "https://kathryndavies123.github.io/tipcalculator/",
+        githubrepo: "https://github.com/KathrynDavies123/tipcalculator"
     },
 
     {
@@ -30,6 +41,14 @@ const dataarray = [
         techstack: "React, Javascript, API, CSS", 
         livesite: "https://illustrious-panda-46531a.netlify.app/",
         githubrepo: "https://github.com/KathrynDavies123/react-beer-api"
+    }, 
+    {
+        image: designportfolio,
+        title: "Design Portfolio Landing Page",
+        description: "Designer landing page with Javascript image slider",
+        techstack: "HTML, CSS, Javascript", 
+        livesite: "https://kathryndavies123.github.io/design-portfolio-landing-page/",
+        githubrepo: "https://github.com/KathrynDavies123/design-portfolio-landing-page"
     }
 ]
 
