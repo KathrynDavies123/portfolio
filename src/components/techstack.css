@@ -1,3 +1,7 @@
+section:first-of-type {
+    margin-top:5rem;
+}
+
 .techstack-icon-grid {
     display:flex;
     flex-wrap:wrap;

@@ -1,0 +1,17 @@
+.about-me p {
+    text-align: left;
+    font-size:1rem;
+}
+
+h4 {
+    color: #CCCCCC;
+    font-weight:500;
+}
+
+.about-me div {
+    align-self: flex-start;
+}
+
+.about-me div p {
+    text-align:left;
+}
