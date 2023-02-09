@@ -7,14 +7,18 @@ footer {
     margin-top:-1rem;
 }
 
-footer p {
-    font-size:0.9rem;
-}
-
 footer a {
+    color: #666666;
+  }
+  
+  footer a:hover {
+    color:#000000;
+  }
+  
+  .dark footer a {
     color: #A7A7A7;
-}
-
-footer a:hover {
+  }
+  
+  .dark footer a:hover {
     color:#ffffff;
-}
+  }

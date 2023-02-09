@@ -8,7 +8,6 @@ import {
 const Nav = () => {
   return (
     <nav>
-      <p>KD</p>
       <ul>
         <li>
           <a

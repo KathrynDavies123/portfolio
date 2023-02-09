@@ -1,19 +1,5 @@
 nav {
-    display:flex;
-    align-items: center;
     height:3rem;
-    justify-content: space-between;
-}
-
-nav p {
-  background-image: linear-gradient(#13b0f5 -2.06%, #e70faa 100%);
-  background-clip: text;
-  -webkit-background-clip: text;
-  -moz-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  -moz-text-fill-color: transparent;
-  font-weight:700;
-  font-size:1.5rem;
 }
 
 ul {
@@ -23,9 +9,17 @@ ul {
 }
 
 nav a {
-    color: #A7A7A7;
+  color: #666666;
 }
 
 nav a:hover {
+  color:#000000;
+}
+
+.dark nav a {
+  color: #A7A7A7;
+}
+
+.dark nav a:hover {
   color:#ffffff;
 }
