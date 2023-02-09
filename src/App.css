@@ -17,14 +17,46 @@ body {
   gap: 5rem;
 }
 
+@keyframes fadein {
+  0% {
+    opacity:0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
 .dark-light-toggle-btn {
   position:fixed;
-  top:1.5%;
+  top:3%;
   right:7%;
+  border:1px solid rgba(102, 102, 102, 0.1);
+  color:#666666;
+  padding:5px;
+  display:flex;
+  border-radius: 100%;
+  background-color: #f2f2f2;
+  animation-name: fadein;
+  animation-duration: 0.5s;
+}
+
+.dark-light-toggle-btn:hover {
+  cursor: pointer;
+  background: #ffffff;
 }
 
 .dark {
   background: #191919;
+}
+
+.dark .dark-light-toggle-btn {
+  color:#d9d9d9;
+  background: rgba(54, 54, 54, 0.5);
+}
+
+.dark .dark-light-toggle-btn:hover {
+  background: rgba(54, 54, 54, 1);
 }
 
 .light {

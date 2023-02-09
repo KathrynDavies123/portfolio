@@ -6,6 +6,7 @@ import Projects from "./components/projects";
 import AboutMe from "./components/aboutme";
 import Footer from "./components/footer";
 import { useState, useEffect } from "react";
+import { Icon } from '@iconify/react';
 
 function App() {
   const [theme, setTheme] = useState("light");
@@ -21,7 +22,13 @@ function App() {
   }, [theme]);
   return (
     <div className={`App ${theme}`}>
-      <button onClick={toggleTheme} className="dark-light-toggle-btn">Toggle Theme</button>
+      {theme === "light" &&
+              <button onClick={toggleTheme} className="dark-light-toggle-btn"><Icon icon="ph:moon" width="30" height="30" /></button>
+      }
+      {theme === "dark" &&
+              <button onClick={toggleTheme} className="dark-light-toggle-btn"><Icon icon="ph:sun" width="30" height="30" />
+              </button>
+      }
       <Nav />
       <Header />
       <TechStack />
