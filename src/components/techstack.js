@@ -13,7 +13,7 @@ const TechStack = () => {
         <Icon icon="skill-icons:bootstrap" width="80" height="80" />
         <Icon icon="skill-icons:wordpress" width="80" height="80" />
         <Icon icon="vscode-icons:file-type-sass" width="80" height="80" />
-        <Icon icon="mdi:github" width="80" height="80" color="white"/>
+        <Icon icon="mdi:github" width="80" height="80"/>
         <Icon icon="logos:visual-studio-code" width="80" height="80" />
         </div>
     </section> );

@@ -10,3 +10,15 @@ section:first-of-type {
     margin-top:0.8rem;
     justify-content: center;
 }
+
+@media (min-width:645px) {
+    .techstack-icon-grid {
+        max-width:500px;
+    }
+}
+
+@media (min-width:950px) {
+    .techstack-icon-grid {
+        max-width: 100%;
+    }
+}

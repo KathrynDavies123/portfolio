@@ -41,3 +41,27 @@ span {
   -webkit-text-fill-color: transparent;
   -moz-text-fill-color: transparent;
 }
+
+@media (min-width:645px) {
+  header {
+    flex-direction:row-reverse;
+    justify-content: space-between;
+    padding:0 3rem;
+  }
+
+  h1 {
+    max-width:50%;
+    text-align: left;
+  }
+}
+
+@media (min-width:950px) {
+  header {
+    justify-content: center;
+    gap:15rem;
+  }
+
+  h1 {
+    max-width:35%;
+  }
+}

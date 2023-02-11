@@ -3,4 +3,11 @@
     display:flex;
     gap:3rem;
     flex-wrap: wrap;
+    justify-content: center;
+}
+
+@media (min-width:950px) {
+    .projects-grid {
+        padding:0 1rem;
+    }
 }

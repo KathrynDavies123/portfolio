@@ -28,3 +28,16 @@ h4 {
 .dark .about-me div p {
     color: rgba(151, 75, 198, 0.5);
 }
+
+@media (min-width:645px) {
+  .about-me {
+    align-items: flex-start;
+    padding:0 3rem;
+  }
+}
+
+@media (min-width:950px) {
+  .about-me {
+    padding: 0 10rem;
+  }
+}
