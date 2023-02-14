@@ -22,3 +22,15 @@ footer a {
   .dark footer a:hover {
     color:#ffffff;
   }
+
+  @media (min-width:645px) {
+    footer {
+      padding:1rem 3rem;
+    }
+  }
+
+  @media (min-width:950px) {
+    footer {
+      padding: 1rem 10rem;
+    }
+  }

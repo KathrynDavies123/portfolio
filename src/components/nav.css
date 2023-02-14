@@ -1,5 +1,7 @@
 nav {
     height:3rem;
+    display:flex;
+    align-items: center;
 }
 
 ul {
@@ -22,4 +24,10 @@ nav a:hover {
 
 .dark nav a:hover {
   color:#ffffff;
+}
+
+@media (min-width:715px) {
+  nav {
+    padding:0 3rem;
+  }
 }
