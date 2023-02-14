@@ -5,6 +5,7 @@ import rps from "../images/rps.JPG";
 import beer from "../images/beer.JPG";
 import tipcalculator from "../images/tipcalculator.png";
 import designportfolio from "../images/designportfolio.png";
+import dashboard from "../images/dashboard.JPG";
 
 const dataarray = [
     {
@@ -23,6 +24,15 @@ const dataarray = [
         techstack: "HTML, CSS, Javascript", 
         livesite: "https://kathryndavies123.github.io/tipcalculator/",
         githubrepo: "https://github.com/KathrynDavies123/tipcalculator"
+    },
+
+    {
+        image: dashboard,
+        title: "Time-tracking dashboard",
+        description: "Dashboard that shows stats for different activities. Timeframe can be changed and updates content dynamically.",
+        techstack: "HTML, CSS, Javascript", 
+        livesite: "https://kathryndavies123.github.io/time-tracking-dashboard",
+        githubrepo: "https://github.com/KathrynDavies123/time-tracking-dashboard"
     },
 
     {
