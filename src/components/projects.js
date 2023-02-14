@@ -29,7 +29,7 @@ const dataarray = [
     {
         image: dashboard,
         title: "Time-tracking dashboard",
-        description: "Dashboard for activities. Timeframe can be changed and updates content dynamically.",
+        description: "Dashboard for activities with adjustable timeframe.",
         techstack: "HTML, CSS, Javascript", 
         livesite: "https://kathryndavies123.github.io/time-tracking-dashboard",
         githubrepo: "https://github.com/KathrynDavies123/time-tracking-dashboard"
